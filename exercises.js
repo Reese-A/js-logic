@@ -114,7 +114,14 @@ console.log(mustBeTrue(6>4));
  * Console.log your result.
 */
 
-
+function bigBird(word){
+	if(word.length === 3){
+		return 'Word to the Big Bird';
+	}else{
+		return 'WRONG';
+	}
+}
+console.log(bigBird('yes'));
 
 /*
  * #6
