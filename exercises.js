@@ -58,6 +58,7 @@ function login(password){
 	}
 }
 console.log(login('test1234'));
+
 /*
  * #3
  * Function - isGreaterThan
@@ -71,7 +72,14 @@ console.log(login('test1234'));
  * Console.log your result.
 */
 
-
+function isGreaterThan(first,second){
+	if(first > second){
+		return true;
+	}else{
+		return false;
+	}
+}
+console.log(isGreaterThan(1,2));
 
 /*
  * #4
@@ -85,7 +93,14 @@ console.log(login('test1234'));
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+	if(boo === true){
+		return true;
+	}else{
+		return false;
+	}
+}
+console.log(mustBeTrue(6>4));
 
 /*
  * #5
