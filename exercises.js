@@ -290,6 +290,17 @@ console.log(graduation(125, false));
 */ 
 
 
+function moneyTrain(speed){
+	if(speed < 50){
+		return "You are riding Honolulu's rail";
+	}else if(speed < 100 && speed >= 50){
+		return "You are riding an Amtrak";
+	}else if(speed >= 100){
+		return "Now you ballin' in the Shinkansen";
+	}
+}
+console.log(moneyTrain(88));
+
 /*
  * #14
  * Function - buyDoughnut
