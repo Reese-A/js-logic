@@ -202,7 +202,15 @@ console.log(spareChange(48));
  * Console.log your result.
 */ 
 
-
+function dirty30(one, two, three){
+	var sum = one + two + three;
+	if(sum > 30){
+		return true;
+	}else{
+		return false;
+	}
+}
+console.log(dirty30(5,6,48));
 
 /*
  * #10
@@ -216,8 +224,14 @@ console.log(spareChange(48));
  * Console.log your result.
 */ 
 
-
-
+function evenStevens(num){
+	if(num%2 === 0){
+		return true;
+	}else{
+		return false;
+	}
+}
+console.log(evenStevens(7));
 
 /*
  * #11
@@ -232,6 +246,14 @@ console.log(spareChange(48));
  * Console.log your result.
 */ 
 
+function daClub(cover, age){
+	if(cover >= 21 && age >= 21){
+		return 'Welcome to the Legends Lounge.';
+	}else{
+		return 'Chuck E Cheese is across the street.';
+	}
+}
+console.log(daClub(23, 22));
 
 /*
  * #12
@@ -246,7 +268,14 @@ console.log(spareChange(48));
  * Console.log your result.
 */ 
 
-
+function graduation(credits, thesis){
+	if(credits >= 120 || thesis === true){
+		return 'Congratulations on a job well done.';
+	}else{
+		return 'See you in summer school.';
+	}
+}
+console.log(graduation(125, false));
 
 /*
  * #13
