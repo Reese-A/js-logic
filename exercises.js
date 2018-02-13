@@ -362,12 +362,19 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
+for(var i = 1; i <= 5; i++){
+	console.log("Player:", i);
+}
+
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+for(var i = 0; i < myFavFoods.length; i++){
+	console.log(myFavFoods[i]);
+}
 
 /*
  * #17
@@ -384,7 +391,17 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */
 
+var numArray = [3, 5, 7, 9, 11];
 
+function sumItUp(arr){
+	var total = 0;
+	for (var i = 0; i < arr.length; i++){
+	console.log(arr[i]);
+	total += arr[i];
+	}
+	return total;
+}
+console.log(sumItUp(numArray));
 
 /*
  * #18
